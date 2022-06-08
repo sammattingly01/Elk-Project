@@ -2,7 +2,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![image](https://user-images.githubusercontent.com/95186350/172685333-8184d6b9-3a0b-4133-a8cf-b0378f609fe6.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -97,7 +98,7 @@ SSH into the control node and follow the steps below:
 - Update the config file to include remote users and ports.
 - Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 - _Which file is the playbook? Where do you copy it? /etc/ansible/hosts file 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? I have specific two seperate groups in the /etc/ansible/hosts file. One of the group will be webservers which has the IP's of the 3 VM's that I will install filebeat to. The other group is named ELKserver which will have the IP's of the VM I will install ELK to.
 - _Which URL do you navigate to in order to check that the ELK server is running?
